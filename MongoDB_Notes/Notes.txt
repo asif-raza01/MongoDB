@@ -44,5 +44,11 @@ THERE ARE TWO MAIN WAYS TO SHOW RELATIONSHIP BETWEEN DATA IN MONGOOSE
 1.EMBEDDED DATA->WHEN WE TRY PUT WHOLE DATA IN A SINGLE DOCUMENT USING NESTED DOCUMENTS MORE COMPLEX EAGER LOADING
 2.REFRENCES->CONNECTS DATA BY LINKING ONE DOCUMENT TO ANOTHER LESS COMPLEX ON DEMAND DATA THIS IS CALLED LAZY LOADING
 
+MONGOBD QUERIES:
+1.show dbs->to show databases present.
+2.use dbname->to use the database if not present it will create one but will only get stored once the collection is made inside it.
+3.db.Dropdatabase()->to remove the database
+4.db.createCollection('collection_name')->to create collection in database(is like create tables in mysql).
+5.EVERY DOCUMENT IN MONGODB WILL HAVE A UNIQUE ID _id WHICH WILL BE UNIQUE FOR EVERY DOCUMENT
 
 
